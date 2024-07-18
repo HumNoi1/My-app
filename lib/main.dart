@@ -28,3 +28,14 @@ class Home extends StatelessWidget {
     );
   }
 }
+
+class Feed extends StatelessWidget {
+  const Feed({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.green,
+    );
+  }
+}
