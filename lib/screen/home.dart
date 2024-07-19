@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -38,11 +39,8 @@ class Notification extends StatelessWidget {
   const Notification({super.key});
 
   @override
-  Widget build(BuildContext Text) {
-    return Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-      Container (
-
-      )
-    ];
+  Widget build(BuildContext Context) {
+    return Row(
+        mainAxisAlignment: MainAxisAlignment.center, children: [Container()]);
   }
-  
+}

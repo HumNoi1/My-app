@@ -88,3 +88,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.0.6
+
