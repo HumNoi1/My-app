@@ -33,3 +33,16 @@ class Home extends StatelessWidget {
     ]);
   }
 }
+
+class Notification extends StatelessWidget {
+  const Notification({super.key});
+
+  @override
+  Widget build(BuildContext Text) {
+    return Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+      Container (
+
+      )
+    ];
+  }
+  
